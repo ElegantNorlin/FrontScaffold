@@ -75,7 +75,7 @@ const register = () => {
         <!-- 登录框 -->
         <div style="flex: 2;">
             <div class="welcome-title1" style="position:absolute;font-size:36px;color: black;text-align: center;margin: 10% 0% 10% 4.5%;">
-                Welcome Todo Application
+                Welcome *** Application
             </div>
             <div style="margin: 60% 0% 60% 0%;">
                 <el-input :prefix-icon="User" @keyup.enter.native="login()" style="width: 40%;height: 4vh;margin-left: 29%;" v-model.trim="username" placeholder="username"/>
